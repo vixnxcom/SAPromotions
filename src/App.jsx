@@ -1,20 +1,12 @@
 import React from 'react'
-
-
-
-import Group from './components/Group'
+import Navbar from './components/Navbar'
+import Pages from './components/pages/Pages'
 
 const App = () => {
   return (
-    <section className=''>
-
-
     <div>
-      <Group />
+      <Pages/>
     </div>
-
-    </section>
-   
   )
 }
 

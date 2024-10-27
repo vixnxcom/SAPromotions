@@ -1,16 +1,10 @@
-
-import kitty from './KITTY.png'
-import heart from './HEART.png'
-import happy from './happy.png'
-import fire from './FIRE.png'
-
+import close from './close.png'
+import menu from './menu.png'
+import logo from './logo.png'
 
 
 export {
-    happy,
-    fire,
-    kitty,
-    heart,
-
-
+    close,
+    menu,
+    logo,
 }
