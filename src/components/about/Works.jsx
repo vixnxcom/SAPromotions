@@ -7,7 +7,8 @@ import Results from './Results';
 
 const Works = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen w-full mt-10">
+    <div className="flex flex-col items-center justify-center min-h-screen w-full  bg-bluee">
+        <div className='h-[120px] bg-bluee'></div>
       <div className="flex items-center justify-center">
         <h1 className="text-[8vw] text-white neue-medium text-center">HOW IT WORKS</h1>
       </div>

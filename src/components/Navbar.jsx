@@ -78,7 +78,7 @@ const Navbar = () => {
               custom={0.6}
               className="text-3xl hover:text-gray-400 cursor-pointer"
             >
-              <Link to="/" onClick={() => setIsOpen(false)}>
+              <Link to="/about" onClick={() => setIsOpen(false)}>
                 How it works
               </Link>
             </motion.li>
@@ -116,6 +116,7 @@ const Navbar = () => {
           </motion.ul>
         </motion.div>
       )}
+
     </div>
   );
 };
