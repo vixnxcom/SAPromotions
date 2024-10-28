@@ -37,7 +37,7 @@ const Works = () => {
        </div>
         <Posting />
       </div>
-      <div className="mt-5 flex justify-center flex flex-col mb-20">
+      <div className="mt-5 flex justify-center flex flex-col mb-16">
         <div className='bg-white rounded-full p-4 h-[80px] w-[80px] bg-white mx-auto mt-2 mb-2'>
            <h1 className='text-black text-[32px] mx-1 neue-medium'>05.</h1>
        </div>
