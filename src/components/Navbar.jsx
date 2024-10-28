@@ -35,7 +35,7 @@ const Navbar = () => {
       </div>
 
       <motion.button
-        className="absolute top-2 right-8 w-28 text-black mt-1"
+        className="absolute top-2 right-4 w-28 text-black mt-1"
         onClick={() => setIsOpen(!isOpen)}
       >
         <motion.img
@@ -63,7 +63,7 @@ const Navbar = () => {
         >
           {/* Close Button */}
           <button
-            className="absolute top-2 right-8 w-28 text-black mt-1"
+            className="absolute top-2 right-4 w-28 text-black mt-1"
             onClick={() => setIsOpen(false)}
           >
             <img src={close} alt="Close" />
@@ -79,7 +79,7 @@ const Navbar = () => {
               className="text-3xl hover:text-gray-400 cursor-pointer"
             >
               <Link to="/" onClick={() => setIsOpen(false)}>
-                Home
+                How it works
               </Link>
             </motion.li>
             <motion.li
@@ -89,8 +89,17 @@ const Navbar = () => {
               custom={0.9}
               className="text-3xl hover:text-gray-400 cursor-pointer"
             >
+           
+            </motion.li>
+            <motion.li
+              variants={itemVariants}
+              initial="hidden"
+              animate="visible"
+              custom={0.9}
+              className="text-3xl hover:text-gray-400 cursor-pointer"
+            >
               <Link to="/payments" onClick={() => setIsOpen(false)}>
-                Payments
+                Payments Plans
               </Link>
             </motion.li>
             <motion.li

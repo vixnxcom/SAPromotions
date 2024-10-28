@@ -11,7 +11,7 @@ const Texthero = () => {
       < p className='neue-medium text-white text-[6vw] mt-2' >
       Let’s Get You Noticed!
       </p>
-      <button className='text-white mt-5 bg-yellow-400 w-[70%] mx-auto p-4 shadow-lg text-[6vw] rounded-[12px] bg-blue'>
+      <button className='text-white mt-5 mb-10 bg-yellow-400 w-[70%] mx-auto p-4 shadow-lg text-[6vw] rounded-[12px] bg-blue'>
      Get Started
       </button>
     </div>
