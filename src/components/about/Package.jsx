@@ -50,10 +50,10 @@ const Package = () => {
     return (
         <div className="flex justify-center items-center bg-black md:h-auto w-full max-w-[96vw] mx-auto flex-col rounded-[24px]">
             {/* SVG */}
-            <div className="bg-white max-w-[96vw] rounded-t-[24px] h-[25vh] mt-0">
+            <div className="bg-white max-w-[96vw] rounded-t-[24px] h-[27vh] mt-0">
                 <motion.svg
-                    width="170"
-                    height="180"
+                    width="180"
+                    height="190"
                     viewBox="0 0 240 251"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
