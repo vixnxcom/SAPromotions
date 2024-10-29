@@ -57,7 +57,7 @@ const Package = () => {
                     viewBox="0 0 240 251"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="mt-4"
+                    className="mt-6"
                     variants={svgVariants}
                     initial="hidden"
                     animate={hasAnimated ? "visible" : "hidden"}

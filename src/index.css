@@ -77,7 +77,9 @@ background: linear-gradient(137.6deg, #0527FF 41.49%, #06FBFB 104.04%);
 .bg-bluee{
 background-color: #0527FF;
 }
-
+.text-blue{
+  color: #0527FF;
+}
   .bg-hero{
     background-position: scroll;
     background-image: url(assets/hero.png);
