@@ -99,7 +99,7 @@ background-color: #0527FF;
 margin: 16px auto;
 margin-top: 20px;
 height: 64px;
-width: 256px;
+width: 50vw;
 background: linear-gradient(180deg,#fea 0%,rgb(241, 217, 121) 49%,rgb(202, 182, 102) 51%,#dc8 100%);
 border-radius: 10px;
 box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
