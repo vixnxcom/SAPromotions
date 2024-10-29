@@ -56,7 +56,7 @@ const Payment = () => {
                     height="170" 
                     viewBox="0 0 213 175" 
                     fill="none"  
-                    className='mt-8'
+                    className='mt-4'
                     xmlns="http://www.w3.org/2000/svg"
                     variants={svgVariants}
                     initial="hidden"
@@ -73,7 +73,7 @@ const Payment = () => {
                         variants={pathVariants}
                     />
                     <motion.path d="M149.75 135L160.436 143.652C161.336 144.381 162.666 144.195 163.331 143.246L181.75 117" 
-                        stroke="white" 
+                        stroke="#ffff06" 
                         strokeWidth="8"
                         variants={pathVariants}
                     />
