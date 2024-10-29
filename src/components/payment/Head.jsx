@@ -4,16 +4,17 @@ import styles from '../../style'
 const Head = () => {
   return (
     <div className='bg-white'>
-
-         {/* premium */}
-    <div className={`${styles.flexStart} ${styles.paddingX}  text-black mt-10 mb-10 text-[6vw] font-bold neue-medium`}>
-        <h1>Starter Plan</h1>
+        
+        {/* premium */}
+    <div className={`${styles.flexStart} ${styles.paddingX} flex-col text-black mt-10 mb-10 `}>
+        <h1 className='text-[6vw] font-bold neue-medium'>Starter Plan</h1>
+        <p className='text-[5vw] neue-thin mt-2'>Simple and effective packages</p>
     </div>
     {/* premium */}
+    
        {/* 5k plan */}  
     <div className={`${styles.flexStart} ${styles.paddingX} bg-bluee flex flex-col p-4`}>
-     
-       
+
         <h1 className='neue-medium font-bold text-[6vw] text-white'>
           5,000 Naira Ad Plan
         </h1>
